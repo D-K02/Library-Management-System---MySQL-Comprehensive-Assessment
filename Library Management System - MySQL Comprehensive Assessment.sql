@@ -82,23 +82,23 @@ VALUES (1, 101, '123 Main St', '1234567890'),
        
 # Insert Data into Employee 
 
-INSERT INTO Employee (Emp_Id, Emp_name, Position, Salary, Branch_no)
-VALUES (101, 'Alice', 'Manager', 60000, 1),
-       (201, 'Bob', 'Assistant', 40000, 1),
-       (301, 'George', 'Clerk', 32000, 1),
-	   (211, 'Helen', 'Assistant', 45000, 1),
-	   (311, 'Irene', 'Clerk', 30000, 1),
-	   (321, 'Jack', 'Clerk', 31000, 1),
-	   (221, 'Karen', 'Assistant', 47000, 1),
-       (102, 'Charlie', 'Manager', 65000, 2),
-       (302, 'David', 'Clerk', 30000, 2),      
-	   (202, 'Leo', 'Assistant', 72000, 2),
-	   (312, 'Megan', 'Clerk', 28000, 2),
-       (103, 'Eve', 'Manager', 70000, 3),
-       (203, 'Frank', 'Assistant', 45000, 3),
-	   (213, 'Nina', 'Assistant', 46000, 3),
-	   (303, 'Oscar', 'Clerk', 35000, 3),
-	   (313, 'Pamela', 'Clerk', 43000, 3);
+INSERT INTO Employee (Emp_Id, Emp_name, Position, Salary, Branch_no) VALUES 
+	(101, 'Alice', 'Manager', 60000, 1),
+	(201, 'Bob', 'Assistant', 40000, 1),
+	(301, 'George', 'Clerk', 32000, 1),
+	(211, 'Helen', 'Assistant', 45000, 1),
+	(311, 'Irene', 'Clerk', 30000, 1),
+	(321, 'Jack', 'Clerk', 31000, 1),
+	(221, 'Karen', 'Assistant', 47000, 1),
+	(102, 'Charlie', 'Manager', 65000, 2),
+	(302, 'David', 'Clerk', 30000, 2),      
+	(202, 'Leo', 'Assistant', 72000, 2),
+	(312, 'Megan', 'Clerk', 28000, 2),
+	(103, 'Eve', 'Manager', 70000, 3),
+	(203, 'Frank', 'Assistant', 45000, 3),
+	(213, 'Nina', 'Assistant', 46000, 3),
+	(303, 'Oscar', 'Clerk', 35000, 3),
+	(313, 'Pamela', 'Clerk', 43000, 3);
 
 # Insert Data into Books
 
